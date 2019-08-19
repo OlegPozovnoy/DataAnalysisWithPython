@@ -1,0 +1,13 @@
+a = np.array([[1, 2, 3], [2, 5, 6], [6, 7, 4]])
+b = np.eye(5)
+c = np.ones((7, 5))
+v = np.arange(0, 24, 2) d = v.reshape((3, 4))
+a = a.T a.shape b = np.transpose(a)
+r1 = np.dot(a, b)
+r2 = a.dot(b)
+np.linalg.det(a)
+r = np.linalg.matrix_rank(a)
+ s = np.linalg.lstsq(a, b)
+  np.linalg.inv(a)
+  np.linalg.eig(a)
+  
